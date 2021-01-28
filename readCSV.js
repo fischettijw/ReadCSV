@@ -11,10 +11,10 @@ async function getData() {
         const name = columns[0];
         const age = columns[1];
         const gender = columns[2];
-        console.log(name, age, gender);
+        console.log('      ', name, age, gender);
     })
 
-    console.log('\n5 - COMPLETE DATA RETRIEVAL');
+    console.log('5 - COMPLETE DATA RETRIEVAL');
 }
 
 console.log('1 - CALL AND LOG DATA RETRIEVAL');
